@@ -1,0 +1,55 @@
+h2 {
+  text-align: center;
+}
+
+body {
+  background: linear-gradient(90deg, #2cf340, #0d7b03);
+  font-family: monospace;
+}
+
+#container {
+  width: 35vw;
+  height: 35vh;
+  background-color: rgba(253, 253, 253, 0.8);
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 50px rgba(0, 0, 0, 0.5);
+}
+main {
+  display: flex; /*Faz ele se tornar um flexbox*/
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #0d7b03;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+  background-color: #024b18;
+}
+
+label:hover {
+  color: red;
+}
+
+input {
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.8);
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+}
